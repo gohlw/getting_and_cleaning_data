@@ -50,8 +50,8 @@ MEAN(): Mean value
 SD(): Standard deviation
 
 ## How the data been processed
-1.) https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is download, unzip\n
-2.) The data in "test" and "train" will be read into R, unaltered, all the processing of data is done on R\n
+1.) https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip is download, unzip<br>
+2.) The data in "test" and "train" will be read into R, unaltered, all the processing of data is done on R<br>
 3.) /UCI HAR Dataset/train/X_train.txt is combine (rbind) with /UCI HAR Dataset/test/X_test.txt to form the "set" dataset (most of the measurement is in here)
 4.) /UCI HAR Dataset/train/y_train.txt is combine (rbind) with /UCI HAR Dataset/test/y_test.txt to form the "activity" dataset
 5.) /UCI HAR Dataset/train/subject_train.txt is combine (rbind) with /UCI HAR Dataset/test/subject_test.txt to form the "subject" dataset
